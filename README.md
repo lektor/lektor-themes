@@ -31,12 +31,12 @@ Each theme needs:
 
 1. To be added to the lektor-themes repo;
 1. A good README;
+1. A good `theme.ini`
 
 Each theme is encouraged to have:
 
 1. Included `example-site`
 1. Included screenshots in `/images/`
-1. A good `theme.ini`
 
 ## theme.ini
 
