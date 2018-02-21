@@ -1,0 +1,76 @@
+
+# Lektor Themes
+
+A collection of all themes that were created by the Lektor community.
+
+# Installation
+
+## Installing all themes
+
+If you would like to install all of the available Lektor themes, simply clone the entire repository from within your project directory with this command:
+
+    git clone --depth 1 --recursive https://github.com/lektor/lektor-themes.git themes
+
+## Installing a single theme
+
+<pre><code>cd themes
+git clone <em>URL_TO_THEME</em>
+</code></pre>
+
+# Adding a theme to the list
+
+* Create your theme.
+* Add a descriptive `README.md` to the root of the theme;
+* Open up a new Issue with a link to the theme's repository on GitHub.
+
+We encourage theme authors to supply a self-contained Lektor site in `/example-site` to easily illustrate their theme. Please make the site's content as neutral as possible. We further encourage you to use this example site to produce screenshots that we can use to add this theme to a showcase on getlektor.com.
+
+**NOTE:** The folder name here is important, as this folder will be picked up and used to generate the a list of themes on getlektor.com.
+
+Each theme needs:
+
+1. To be added to the lektor-themes repo;
+1. A good README;
+
+Each theme is encouraged to have:
+
+1. Included `example-site`
+1. Included screenshots in `/images/`
+1. A good `theme.ini`
+
+## theme.ini
+
+This file contains metadata about the theme and its creator. **Only `theme.toml` is accepted, not `theme.yaml`, `theme.json`, or `theme.toml`**. The following fields are required:
+
+```ini
+name = "Nix"
+license = "MIT"
+licenselink = "https://github.com/rlaverde/lektor-theme-nix/blob/master/LICENSE.md"
+description = "Simple, minimal theme for Lektor "
+homepage = "https://github.com/rlaverde/lektor-theme-nix"
+tags = ["simple", "minimal", "unix", "terminal", "blog"]
+features = ["blog"]
+lektor_required_version = 3.1
+
+[author]
+    name = "rlaverde"
+    homepage = "http://rlaverde.github.io/"
+
+# If porting an existing theme
+[original]
+    author = "Matúš Námešný"
+    homepage = "https://namesny.com"
+    repo = "https://github.com/LordMathis/hugo-theme-nix"
+```
+
+## README.md
+
+Your theme's README file
+(which should be written in Markdown and called `README.md`)
+serves a double purpose.
+This is because its content will appear in two places&mdash;i.e., it will appear:
+
+1. On your theme's details page on getlektor.com; and
+1. At GitHub (as usual), on your theme's regular main page.
+
+**Note:** If you add screenshots to the README please make use of absolute file paths instead of relative ones like `/images/screenshot.png`. Relative paths work great on GitHub but they don't correspond to the directory structure of getlektor.com. Therefore, browsers will not be able to display screenshots on the theme site under the given (relative) path.
