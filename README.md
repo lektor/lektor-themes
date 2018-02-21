@@ -40,7 +40,7 @@ Each theme is encouraged to have:
 
 ## theme.ini
 
-This file contains metadata about the theme and its creator. **Only `theme.toml` is accepted, not `theme.yaml`, `theme.json`, or `theme.toml`**. The following fields are required:
+This file contains metadata about the theme and its creator. **Only `theme.ini` is accepted, not `theme.yaml`, `theme.json`, or `theme.toml`**. The following fields are required:
 
 ```ini
 name = "Nix"
