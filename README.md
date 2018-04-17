@@ -33,17 +33,17 @@ git submodule add URL_TO_THEME
 * Add a descriptive `README.md` to the root of the theme;
 * Open up a new Issue with a link to the theme's repository on GitHub.
 
-We encourage theme authors to supply a self-contained Lektor site in `/example-site` to easily illustrate their theme. Please make the site's content as neutral as possible. We further encourage you to use this example site to produce screenshots that we can use to add this theme to a showcase on getlektor.com.
+We encourage theme authors to supply a self-contained Lektor site in `/example-site` to easily illustrate their theme. Please make the site's content as neutral as possible. We further encourage you to use this example site to produce screenshots (placed in `/images`) that we can use to add this theme to a showcase on [getlektor.com](https://getlektor.com).
 
 **NOTE:** The folder name here is important, as this folder will be picked up and used to generate the a list of themes on getlektor.com.
 
 Each theme needs:
 
 1. To be added to the lektor-themes repo;
-1. A good README;
+1. A good README.md;
 1. A good `theme.ini`
 
-Each theme is encouraged to have:
+Additionally, each theme is strongly encouraged to have:
 
 1. Included `example-site` that is fully functional in-place with just `lektor server`.<sup>1</sup>
 1. Included screenshots in `/images/`
