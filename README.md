@@ -11,11 +11,21 @@ If you would like to install all of the available Lektor themes, simply clone th
 
     git clone --depth 1 --recursive https://github.com/lektor/lektor-themes.git themes
 
-## Installing a single theme
+## Installing a single theme (*nix instructions)
 
-<pre><code>cd themes
-git clone <em>URL_TO_THEME</em>
-</code></pre>
+```bash
+mkdir themes
+cd themes
+git clone URL_TO_THEME
+```
+
+or installing into an existing repository (for a Lektor project):
+
+```bash
+mkdir themes
+cd themes
+git submodule add URL_TO_THEME
+```
 
 # Adding a theme to the list
 
