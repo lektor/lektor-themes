@@ -3,4 +3,7 @@
 	url = https://github.com/rlaverde/lektor-theme-nix
 [submodule "lektor-theme-terminal"]
 	path = lektor-theme-terminal
-	url = git@github.com:terminal-labs/lektor-theme-terminal.git
+	url = https://github.com/terminal-labs/lektor-theme-terminal.git
+[submodule "lektor-theme-resume"]
+	path = lektor-theme-resume
+	url = https://github.com/hannylicious/lektor-theme-resume.git
