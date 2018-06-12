@@ -43,10 +43,10 @@ Each theme needs:
 1. A good README.md;
 1. A good `theme.ini`
 
-Additionally, each theme is strongly encouraged to have:
+Additionally, each theme is strongly encouraged to include:
 
-1. Included `example-site` that is fully functional in-place with just `lektor server`.<sup>1</sup>
-1. Included screenshots in `/images/`
+1. an `example-site` that is fully functional in-place with just `lektor server`.<sup>1</sup>
+1. screenshots in `/images/`
 
 [1] Making your example-site fully functional and DRY is a bit tricky, but it can be accomplished with the creation of a single symlink. Go into the example-site's `themes` dir, and run `ln -s ../../../[theme repo dir]/ [theme repo dir]`. Note the lack of a trailing `/`.
 
