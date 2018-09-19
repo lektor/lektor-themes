@@ -7,3 +7,6 @@
 [submodule "lektor-theme-resume"]
 	path = lektor-theme-resume
 	url = https://github.com/hannylicious/lektor-theme-resume.git
+[submodule "lektor-theme-simple-strap"]
+	path = lektor-theme-simple-strap
+	url = https://github.com/Andrew-Shay/lektor-theme-simple-strap.git
