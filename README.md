@@ -55,24 +55,25 @@ Additionally, each theme is strongly encouraged to include:
 This file contains metadata about the theme and its creator. **Only `theme.ini` is accepted, not `theme.yaml`, `theme.json`, or `theme.toml`**. The following fields are required:
 
 ```ini
-name = "Nix"
-license = "MIT"
-licenselink = "https://github.com/rlaverde/lektor-theme-nix/blob/master/LICENSE.md"
-description = "Simple, minimal theme for Lektor "
-homepage = "https://github.com/rlaverde/lektor-theme-nix"
-tags = ["simple", "minimal", "unix", "terminal", "blog"]
-features = ["blog"]
+[theme]
+name = Nix
+license = MIT
+licenselink = https://github.com/rlaverde/lektor-theme-nix/blob/master/LICENSE.md
+description = Simple, minimal theme for Lektor
+homepage = https://github.com/rlaverde/lektor-theme-nix
+tags = simple, minimal, unix, terminal, blog
+features = blog
 lektor_required_version = 3.1
 
 [author]
-    name = "rlaverde"
-    homepage = "http://rlaverde.github.io/"
+name = rlaverde
+homepage = http://rlaverde.github.io/
 
 # If porting an existing theme
 [original]
-    author = "Matúš Námešný"
-    homepage = "https://namesny.com"
-    repo = "https://github.com/LordMathis/hugo-theme-nix"
+author = Matúš Námešný
+homepage = https://namesny.com
+repo = https://github.com/LordMathis/hugo-theme-nix
 ```
 
 ## README.md
