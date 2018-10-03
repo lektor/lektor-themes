@@ -1,4 +1,3 @@
-
 # Lektor Themes
 
 A collection of all themes that were created by the Lektor community.
@@ -8,6 +7,10 @@ A collection of all themes that were created by the Lektor community.
 ## Installing all themes
 
 If you would like to install all of the available Lektor themes, simply clone the entire repository from within your project directory with this command:
+
+    git clone --depth 1 --recursive git@github.com:lektor/lektor-themes.git themes
+
+or
 
     git clone --depth 1 --recursive https://github.com/lektor/lektor-themes.git themes
 
