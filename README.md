@@ -46,10 +46,11 @@ Each theme needs:
 1. A good README.md;
 1. A good `theme.ini`
 
-Additionally, each theme is strongly encouraged to include:
+Additionally, each theme is strongly encouraged to:
 
-1. an `example-site` that is fully functional in-place with just `lektor server`.<sup>1</sup>
-1. screenshots in `/images/`
+1. include an `example-site` that is fully functional in-place with just `lektor server`.<sup>1</sup>,
+1. include screenshots in `/images/`, and
+1. tag version releases with git. This may help when trying to safely upgrade versions of your theme.
 
 [1] Making your example-site fully functional and DRY is a bit tricky, but it can be accomplished with the creation of a single symlink. Go into the example-site's `themes` dir, and run `ln -s ../../../[theme repo dir]/ [theme repo dir]`. Note the lack of a trailing `/`.
 
@@ -59,18 +60,19 @@ This file contains metadata about the theme and its creator. **Only `theme.ini` 
 
 ```ini
 [theme]
-name = Nix
+description = Simple, minimal theme for Lektor
+features = blog
+homepage = https://github.com/rlaverde/lektor-theme-nix
+lektor_required_version = 3.1
 license = MIT
 licenselink = https://github.com/rlaverde/lektor-theme-nix/blob/master/LICENSE.md
-description = Simple, minimal theme for Lektor
-homepage = https://github.com/rlaverde/lektor-theme-nix
+name = Nix
 tags = simple, minimal, unix, terminal, blog
-features = blog
-lektor_required_version = 3.1
+version = 0.1
 
 [author]
-name = rlaverde
 homepage = http://rlaverde.github.io/
+name = rlaverde
 
 # If porting an existing theme
 [original]
